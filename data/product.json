@@ -1,0 +1,290 @@
+{
+  "status": 0,
+  "message": "string",
+  "data": {
+    "products": [
+      {
+        "id": "string",
+        "code": "string",
+        "name": "string",
+        "description": "string",
+        "category": {
+          "id": "string",
+          "name": "string",
+          "description": "string",
+          "createdAt": "2024-11-09T10:53:29.597Z",
+          "updatedAt": "2024-11-09T10:53:29.597Z",
+          "createdBy": {
+            "id": "string",
+            "email": "string",
+            "phoneNumber": "string",
+            "firstName": "string",
+            "lastName": "string",
+            "isActive": true,
+            "createdAt": "2024-11-09T10:53:29.597Z",
+            "updatedAt": "2024-11-09T10:53:29.597Z",
+            "shippingAddress": "string",
+            "stripeAccountId": "string",
+            "currency": "string",
+            "roles": [
+              {
+                "id": "string",
+                "name": "string",
+                "users": [null],
+                "createdAt": "2024-11-09T10:53:29.597Z",
+                "updatedAt": "2024-11-09T10:53:29.597Z"
+              }
+            ],
+            "createdCategories": [null],
+            "updatedCategories": [null],
+            "createdProducts": [null],
+            "updatedProducts": [null],
+            "inventories": [null],
+            "orders": [null],
+            "payouts": [{}]
+          },
+          "updatedBy": {
+            "id": "string",
+            "email": "string",
+            "phoneNumber": "string",
+            "firstName": "string",
+            "lastName": "string",
+            "isActive": true,
+            "createdAt": "2024-11-09T10:53:29.597Z",
+            "updatedAt": "2024-11-09T10:53:29.597Z",
+            "shippingAddress": "string",
+            "stripeAccountId": "string",
+            "currency": "string",
+            "roles": [
+              {
+                "id": "string",
+                "name": "string",
+                "users": [null],
+                "createdAt": "2024-11-09T10:53:29.597Z",
+                "updatedAt": "2024-11-09T10:53:29.597Z"
+              }
+            ],
+            "createdCategories": [null],
+            "updatedCategories": [null],
+            "createdProducts": [null],
+            "updatedProducts": [null],
+            "inventories": [null],
+            "orders": [null],
+            "payouts": [{}]
+          },
+          "products": ["string"]
+        },
+        "unitPrice": 0,
+        "thumbnail": ["string"],
+        "createdAt": "2024-11-09T10:53:29.597Z",
+        "updatedAt": "2024-11-09T10:53:29.597Z",
+        "createdBy": {
+          "id": "string",
+          "email": "string",
+          "phoneNumber": "string",
+          "firstName": "string",
+          "lastName": "string",
+          "isActive": true,
+          "createdAt": "2024-11-09T10:53:29.597Z",
+          "updatedAt": "2024-11-09T10:53:29.597Z",
+          "shippingAddress": "string",
+          "stripeAccountId": "string",
+          "currency": "string",
+          "roles": [
+            {
+              "id": "string",
+              "name": "string",
+              "users": [null],
+              "createdAt": "2024-11-09T10:53:29.597Z",
+              "updatedAt": "2024-11-09T10:53:29.597Z"
+            }
+          ],
+          "createdCategories": [null],
+          "updatedCategories": [null],
+          "createdProducts": [null],
+          "updatedProducts": [null],
+          "inventories": [null],
+          "orders": [null],
+          "payouts": [{}]
+        },
+        "store": {
+          "createdCategories": [null],
+          "updatedCategories": [null],
+          "createdProducts": [null]
+        },
+        "updatedBy": {
+          "id": "string",
+          "email": "string",
+          "phoneNumber": "string",
+          "firstName": "string",
+          "lastName": "string",
+          "isActive": true,
+          "createdAt": "2024-11-09T10:53:29.597Z",
+          "updatedAt": "2024-11-09T10:53:29.597Z",
+          "shippingAddress": "string",
+          "stripeAccountId": "string",
+          "currency": "string",
+          "roles": [
+            {
+              "id": "string",
+              "name": "string",
+              "users": [null],
+              "createdAt": "2024-11-09T10:53:29.597Z",
+              "updatedAt": "2024-11-09T10:53:29.597Z"
+            }
+          ],
+          "createdCategories": [null],
+          "updatedCategories": [null],
+          "createdProducts": [null],
+          "updatedProducts": [null],
+          "inventories": [null],
+          "orders": [null],
+          "payouts": [{}]
+        },
+        "inventories": [
+          {
+            "id": "string",
+            "quantity": 0,
+            "createdAt": "2024-11-09T10:53:29.598Z",
+            "updatedAt": "2024-11-09T10:53:29.598Z",
+            "code": "string",
+            "owner": {
+              "id": "string",
+              "email": "string",
+              "phoneNumber": "string",
+              "firstName": "string",
+              "lastName": "string",
+              "isActive": true,
+              "createdAt": "2024-11-09T10:53:29.598Z",
+              "updatedAt": "2024-11-09T10:53:29.598Z",
+              "shippingAddress": "string",
+              "stripeAccountId": "string",
+              "currency": "string",
+              "roles": [
+                {
+                  "id": "string",
+                  "name": "string",
+                  "users": [null],
+                  "createdAt": "2024-11-09T10:53:29.598Z",
+                  "updatedAt": "2024-11-09T10:53:29.598Z"
+                }
+              ],
+              "createdCategories": [null],
+              "updatedCategories": [null],
+              "createdProducts": [null],
+              "updatedProducts": [null],
+              "inventories": [null],
+              "orders": [null],
+              "payouts": [{}]
+            },
+            "updatedBy": {
+              "id": "string",
+              "email": "string",
+              "phoneNumber": "string",
+              "firstName": "string",
+              "lastName": "string",
+              "isActive": true,
+              "createdAt": "2024-11-09T10:53:29.598Z",
+              "updatedAt": "2024-11-09T10:53:29.598Z",
+              "shippingAddress": "string",
+              "stripeAccountId": "string",
+              "currency": "string",
+              "roles": [
+                {
+                  "id": "string",
+                  "name": "string",
+                  "users": [null],
+                  "createdAt": "2024-11-09T10:53:29.598Z",
+                  "updatedAt": "2024-11-09T10:53:29.598Z"
+                }
+              ],
+              "createdCategories": [null],
+              "updatedCategories": [null],
+              "createdProducts": [null],
+              "updatedProducts": [null],
+              "inventories": [null],
+              "orders": [null],
+              "payouts": [{}]
+            },
+            "product": "string",
+            "orderItems": [{}]
+          }
+        ],
+        "reviews": [
+          {
+            "id": "string",
+            "rating": 0,
+            "comment": "string",
+            "createdAt": "2024-11-09T10:53:29.598Z",
+            "updatedAt": "2024-11-09T10:53:29.598Z",
+            "ratedBy": {
+              "id": "string",
+              "email": "string",
+              "phoneNumber": "string",
+              "firstName": "string",
+              "lastName": "string",
+              "isActive": true,
+              "createdAt": "2024-11-09T10:53:29.598Z",
+              "updatedAt": "2024-11-09T10:53:29.598Z",
+              "shippingAddress": "string",
+              "stripeAccountId": "string",
+              "currency": "string",
+              "roles": [
+                {
+                  "id": "string",
+                  "name": "string",
+                  "users": [null],
+                  "createdAt": "2024-11-09T10:53:29.598Z",
+                  "updatedAt": "2024-11-09T10:53:29.598Z"
+                }
+              ],
+              "createdCategories": [null],
+              "updatedCategories": [null],
+              "createdProducts": [null],
+              "updatedProducts": [null],
+              "inventories": [null],
+              "orders": [null],
+              "payouts": [{}]
+            },
+            "updatedBy": {
+              "id": "string",
+              "email": "string",
+              "phoneNumber": "string",
+              "firstName": "string",
+              "lastName": "string",
+              "isActive": true,
+              "createdAt": "2024-11-09T10:53:29.598Z",
+              "updatedAt": "2024-11-09T10:53:29.598Z",
+              "shippingAddress": "string",
+              "stripeAccountId": "string",
+              "currency": "string",
+              "roles": [
+                {
+                  "id": "string",
+                  "name": "string",
+                  "users": [null],
+                  "createdAt": "2024-11-09T10:53:29.598Z",
+                  "updatedAt": "2024-11-09T10:53:29.598Z"
+                }
+              ],
+              "createdCategories": [null],
+              "updatedCategories": [null],
+              "createdProducts": [null],
+              "updatedProducts": [null],
+              "inventories": [null],
+              "orders": [null],
+              "payouts": [{}]
+            },
+            "product": "string"
+          }
+        ]
+      }
+    ],
+    "pagination": {
+      "totalPages": 0,
+      "recordsPerPage": 0,
+      "totalRecords": 0,
+      "currentPage": 0
+    }
+  }
+}
