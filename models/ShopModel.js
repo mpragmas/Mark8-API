@@ -1,29 +1,36 @@
 const mongoose = require("mongoose");
 
-const shopSchema = new mongoose.Schema({
-  name: {
-    type: String,
-    required: [true, "please enter your shop name"],
+const shopSchema = new mongoose.Schema(
+  {
+    name: {
+      type: String,
+      required: [true, "please enter your shop name"],
+    },
+    location: {
+      type: String,
+      required: [true, "please enter your shop location"],
+    },
   },
-  product: {
-    type: mongoose.Schema.ObjectId,
-    ref: "Product",
-    required: [true, "a shop must have product"],
-  },
-});
+  {
+    toJSON: { virtuals: true },
+    toObject: { virtuals: true },
+  }
+);
 
 shopSchema.pre(/^find/, function (next) {
-  this.populate({
-    path: "product",
-  });
+  this.select("-__v");
   next();
 });
-
-shopSchema.virtual("Store", {
-  ref: "Store",
+shopSchema.virtual("products", {
+  ref: "Product",
   foreignField: "shop",
   localField: "_id",
 });
+
+// shopSchema.pre(/^find/, function (next) {
+//   this.populate("products");
+//   next();
+// });
 
 const Shop = mongoose.model("Shop", shopSchema);
 

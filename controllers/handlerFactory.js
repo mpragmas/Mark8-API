@@ -24,9 +24,14 @@ exports.getAll = (model) =>
     });
   });
 
-exports.getOne = (model) =>
+exports.getOne = (model, populateOne, populateTwo) =>
   catchAsync(async (req, res, next) => {
-    const product = await model.findById(req.params.id);
+    let query = model.findById(req.params.id);
+
+    if (populateOne) query = query.populate(populateOne);
+    if (populateTwo) query = query.populate(populateTwo);
+
+    const product = await query;
     res.status(200).json({
       status: "success",
       data: product,

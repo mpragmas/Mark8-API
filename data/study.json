@@ -1,0 +1,21 @@
+{
+  " store": {
+    "name": "hh",
+    "shop": {
+      //whole shop details
+      "name": "",
+      "id": "",
+      "products": "virtual" //virtual
+    }
+  },
+  "shop": {
+    "name": "",
+    "products": "virtual"
+  },
+  "product": {
+    "name": "",
+    "id": "",
+    "categories": "",
+    "createdBy": ""
+  }
+}
